@@ -339,6 +339,9 @@ footer {
     background: $background-alt;
 }
 
+
+
+
 /*
     --------------------------
     ----- 4. Lead Styles -----
@@ -658,8 +661,9 @@ footer {
 
 .project-info {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+
+/*    top: 50%;
+*/
     margin-left: 300px;
     padding: 15px;
 
@@ -690,6 +694,61 @@ footer {
     display: none;
 }
 
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:before {
+  content: "Show "; /*'\02795'; /* Unicode character for "plus" sign (+) */
+}
+
+.active:before {
+  content: "Hide "; /*'\02795'; /* Unicode character for "plus" sign (+) */
+}
+
+.video-frame {
+    position:relative;
+    padding-top:56.25%;
+}
+.panel {
+    text-align: left;
+    width: 100%;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+      h4 {
+        font-size: 1.2em;
+        font-weight: 500;
+        color: $heading;
+        margin: 15px 0 0  0;
+    }
+
+    p {
+        color: $text;
+        margin: 0 0 15px 0;
+        font-size: 0.9em;
+
+    }
+    b{
+        color: $heading;
+
+    }
+}
 /*
     -------------------------------
     ----- 9. Skills Styles -----
