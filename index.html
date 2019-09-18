@@ -27,15 +27,18 @@
             <li>
                 <a href="#about">About</a>
             </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
             <li>
                 <a href="#experience">Experience</a>
             </li>
             <li>
                 <a href="#education">Education</a>
             </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
+
             <li>
                 <a href="#skills">Skills</a>
             </li>
@@ -50,7 +53,7 @@
         <div id="lead-content">
             <h1>Seth Johnson</h1>
             <h2>PhD Candidate - Computer Science</h2>
-            <a href="#" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
+            <a href="images/resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -73,13 +76,232 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Seth is a Graduate Student working on his PhD in Computer Graphics, Virtual Reality, and Interactive Data Visualization. He is specifically focusing on applications for facilitating collaboration between artists and data researchers, as well as tools for enhancing doctor-patient communication. 
+                        For over ten years, I've been practicing visual effects, interactive computer graphics, and training others in these skills. In 2013, I began researching virtual reality and interactive data visualization, and have since nearly completed my PhD focusing on techniques for making advanced computer graphics more accessible to scientists, artists, and the public. Below, you can take a look at several of the projects I've developed throughout my university research.
                     </p>
+
                 </div>
             </div>
         </div>
     </div>
     <!-- End #about -->
+
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                     <div class="project-image">
+                        <img src="images/sculpting-vis.png" width="300px" />
+
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Artifact Based Rendering</h3>
+                        <p>
+                            At the intersection between art, science, and computer graphics, this research project explores new techniques for designing hand-crafted VR data visualizations. 
+
+                            Leveraging the perceptual expertise of classically-trained artists and the visual variation of the natural world, we developed a workflow for iteratively designing rich and compelling encodings for complex 3D datasets.
+
+                            Our Artifact-Based Rendering approach is actively being used as a means for artists to collaborate directly with scientists studying geochemistry, neurobiology, and astrophysics.
+
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                     <div class="panel">
+                        <hr>
+
+                        <div class ="video-frame">
+                            <iframe src="https://www.youtube.com/embed/5s95HwloWbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                        </div>
+
+                        <h4>My Role </h4>
+                        <p>
+                            As the lead graduate student and first author on this research paper, I directed the software development of this Unity application, acting  as a lead designer and principal programmer over two years. 
+
+                            On my team, I oversaw contributions by three other primary developers, including a talented summer undergraduate mentee. 
+
+                            I engaged in regular meetings with the users of our tool, both artists and scientists, in ongoing efforts to refine the constantly evolving design requirements of large collaborative research projects. 
+
+                            I also directed and produced the above video. 
+
+                        </p>
+
+                        <h4>Technology</h4>
+                        <p>
+                            This visualization design system was built in Unity and supports most common head-mounted displays. To facilitate large 3D VTK datasets targeted for Paraview, I built a C# wrapper for the VTK C++ library through a set of custom python scripts. We also used python to script automated mesh decimation and normal-mapping in Blender to handle high-resolution (more than 100,000 polygon) 3D scans of hand-made glyph sculptures. I also oversaw the development of several browser-based applets designed in P5js. 
+                        </p> 
+
+                        <h4> Publication Abstract </h4>
+                        <p>
+                            We introduce Artifact-Based Rendering (ABR), a framework of tools, algorithms, and processes that makes it possible to produce real, data-driven 3D scientific visualizations with a visual language derived entirely from colors, lines, textures, and forms created using traditional physical media or found in nature.  A theory and process for ABR is presented to address three current needs:  (i) designing better visualizations by making it possible for non-programmers to rapidly design and critique many alternative data-to-visual mappings; (ii) expanding the visual vocabulary used in scientific visualizations to depict increasingly complex multivariate data; (iii) bringing a more engaging, natural, and human-relatable handcrafted aesthetic to data visualization.  New tools and algorithms to support ABR include front-end applets for constructing artifact-based colormaps, optimizing 3D scanned meshes for use in data visualization, and synthesizing textures from artifacts.  These are complemented by an interactive rendering engine with custom algorithms and interfaces that demonstrate multiple new visual styles for depicting point, line, surface, and volume data.  A within-the-research-team design study provides early evidence of the shift in visualization design processes that ABR is believed to enable when compared to traditional scientific visualization systems.  Qualitative user feedback on applications to climate science and brain imaging support the utility of ABR for scientific discovery and public communication.
+                        
+                        </p>
+
+
+
+                    </div>
+                    <button class="accordion">Project Details</button>
+
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/BentoBox.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Bento Box</h3>
+                        <p>
+                            Analyzing complex 3D time-varying simulation ensembles is challenging in both the understanding of specific multi-variable data values and the comparison between different simulation instances.
+                            We developed Bento Box, a virtual reality data visualization user interface, to support these sorts of complex analysis tasks. 
+                            Through Bento Box's immersive comparison grid and fluid two-handed exploration techniques, our biomedical device engineer collaborators were able to make new observations and detect errors in their advanced simulation models. 
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                        
+                    </div>
+
+                    <div class="panel">
+                        <hr>
+
+                        <div class ="video-frame">
+                            <iframe src="https://www.youtube.com/embed/gn8bo8TgCHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                        </div>
+
+                        <h4>My Role </h4>
+                        <p>
+                            Through regular meetings with our biomedical engineer collaborators, I pioneered the design of the Bento Box interface, specifically the new 3D sub-volume comparison technique. I worked closely with a fellow grad student who focused on high-performance data streaming to develop the real-time VR CAVE application, and integrated a bi-manual interaction model programmed by our advisor. I personally oversaw the visual design of the data visualization, interviewing both our biomedical engineer users as well as a collaborating artist who provided insight into coloring and other aesthetic aspects. 
+
+                            I also directed and produced the above video. 
+                        </p>
+
+                        <h4>Technology</h4>
+                        <p>
+                            We built this system in C++ and OpenGL for a four-wall stereoscopic head-tracked CAVE system. We also later ported the system to the HTC Vive. 
+                        </p> 
+
+                         <h4>Publication Abstract </h4>
+                        <p>We present Bento Box, a virtual reality data visualization technique and bimanual 3D user interface for exploratory analysis of 4D data ensembles.  Bento Box helps scientists and engineers make detailed comparative judgments about multiple time-varying data instances that make up a data ensemble (e.g., a group of 10 parameterized simulation runs).  The approach is to present an organized set of complementary volume visualizations juxtaposed in a grid arrangement, where each column visualizes a single data instance and each row provides a new view of the volume from a different perspective and/or scale.  A novel bimanual interface enables users to select a sub-volume of interest to create a new row on-the-fly, scrub through time, and quickly navigate through the resulting virtual ``bento box.''  The technique is evaluated through a real-world case study, supporting a team of medical device engineers and computational scientists using in-silico testing (supercomputer simulations) to redesign cardiac leads.  The engineers confirmed hypotheses and developed new insights using a Bento Box visualization.  An evaluation of the technical performance demonstrates that the proposed combination of data sampling strategies and clipped volume rendering is successful in displaying a juxtaposed visualization of fluid-structure-interaction simulation data (39 GB of raw data) at interactive VR frame rates.</p>
+
+
+                    </div>
+                    <button class="accordion">Project Details</button>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+
+
+
+                 <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/weatherReport.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Weather Report</h3>
+                        <p>
+                            The annual  Northern  Spark  arts  festival  in the  Twin  Cities of Minnesota  attracts  tens  of thousands of people who   gather  for  one  night  to  experience  art as  a  community  until  the  sun  rises.
+
+                            In  2016,  artists were  asked  in  an  open  call  to  interpret  the  theme  of “Climate  Chaos  /  Climate  Rising”  through  “the creation  and  presentation  of  art  in  the  public  sphere, focusing  on  innovative  uses  of  technology,  old  and new,  to  imagine  new  interactions  between  audience, artwork  and  place,  explore  expanded  possibilities  for civic engagement, and encourage pluralistic community.”
+
+                            My advisor and I partnered with seven local architects to approach  this challenge by fusing our diverse design voices into a  vision  of  a  data-driven  nighttime  interactive sculpture  with local  weather data. 
+
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                        
+                    </div>
+
+                    <div class="panel">
+                        <hr>
+
+                        <div class ="video-frame">
+                            <iframe src="https://www.youtube.com/embed/J0uY-TnbwqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                        </div>
+
+                        <h4>My Role </h4>
+                        <p>
+                            As our team met weekly during six months of regular design meetings, I was responsible for researching, designing, and prototyping the technological side of this evolving interactive experience. 
+
+                            From experimenting with motors to embedding arduino-controlled LED's inside balloons, I refined our eventual idea of a "weather balloon pixel" and spec'd out the outdoor projector-based system we eventually constructed. 
+
+                            I also designed the software framework for encoding the 60 years of local weather data that would be displayed on one of the 36-foot-long balloon walls, and the interpolation of live audience-collected subjective memory data that was projected onto the opposite balloon wall. 
+
+                            
+                        </p>
+
+                        <h4>Technology</h4>
+                        <p>
+                            I built this visualization system in Processing, and accumulated the weather data using Wolfram Mathematica scripts accessing Wolfram Alpha. 
+                        </p> 
+
+
+                    </div>
+                    <button class="accordion">Project Details</button>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/immersiveAnalytics.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Hybrid 2D/3D Sketch-Based Interfaces for Annotating Medical Data and Designing Medical Devices</h3>
+                        <p>
+                            Society has benefited greatly from recent advances in medical imaging and data-driven design of medical devices. However, the ability to design, analyze, interpret, and communicate about medical data remains a challenge.
+
+                            In this project, I performed two application case studies showing how hybrid 2D/3D sketch-based interfaces can be used to facilitate medical design and communication tasks, using an existing immersive CAVE-based 3D modeling system developed in my research lab. 
+
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                        
+                    </div>
+
+                    <div class="panel">
+                        <hr>
+
+                        <div class ="video-frame">
+                            <iframe src="https://www.youtube.com/embed/taTwUWYh4jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                        </div>
+
+                        <h4>My Role </h4>
+                        <p>
+                            I extended a C++/OpenGL CAVE VR sculpting application to accept medical images as inputs. I also worked with both medical device engineer and medical practitioner collaborators to devise real-world case studies, and directed the iterative design sessions for this project.
+
+                            
+                        </p>
+
+                        
+
+                        <h4>Publication Abstract</h4>
+                        <p>
+                            We explore the role that immersive technologies, specifically virtual reality (VR) and hybrid 2D/3D sketch-based interfaces and visualizations, can play in analytical reasoning for medicine.  Two case studies are described: (1) immersive explanations of medical procedures, and (2) immersive design of medical devices.  Both tightly integrate 2D imagery and data with 3D interfaces, models, and visualizations.  This is an approach we argue is likely to be particularly useful in medicine, where analytical tasks often involve relating 2D data (e.g., medical imaging) to 3D contexts (e.g., a patient's body).  User feedback and observations from our interdisciplinary team indicate the utility of the approach for the current case studies as well as some shortcomings and areas for future research.  This work contributes to a broader discussion of how hybrid 2D/3D interfaces may form an essential ingredient of future immersive analytics systems across a variety of domains.
+                        </p>
+
+                    </div>
+                    <button class="accordion">Project Details</button>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
@@ -87,45 +309,41 @@
             <div data-date="May 2014 – Present">
                 <h3>University of Minnesota</h3>
                 <h4>Research Assistant</h4>
-                <ul>
-                    <li>
-                        Research AR/VR rendering and user interface techniques for 3D data visualization
-                    </li>
-                    <li>
-                        Develop C++ and Unity software to support interdisciplinary 3D visualization research tasks
-                    </li>
-                    <li>
-                        Produce and direct videos demonstrating lab projects
-                    </li>
-                    <li>
-                        Host regular Virtual Reality lab demos and tours for visiting faculty and school groups
-                    </li>
-                </ul>
+                <p>
+                    Including developing the several projects outlined above, I perform many lab duties, including assisting my advisor and fellow students in software development and video production tasks, maintaining lab hardware and tools, and presenting lab research tours. One of the highlights of my job as a research assistant is mentoring younger students and teaching my coworkers new tools and computer graphics techniques.   
+                </p>
             </div>
 
             <div data-date="May 2017 - Aug 2017">
                 <h3>Samsung Research USA (San Jose, CA)</h3>
                 <h4>Software Research Intern</h4>
-                 <ul>
-                    <li>
-                        Research advanced GPU profiling techniques for mobile graphics applications
-                    </li>
-                </ul>
+                <p>
+                    Through the networking of a professor in my department, I got connected with a summer research internship at Samsung in Silicon Valley, working on a team focused on improving mobile hardware for gaming. My mentor was particularly interested in collecting low-level information about how existing mobile games leveraged GPU resources at run-time. Building upon the inconclusive work of several previous summer interns, I successfully built a profiling workflow that could provide deep insight into every shader pipeline feature being used at any given frame, such as the number of tessellated polygon fragments that were ultimately overdrawn. My work was met with commendation from my team, and was adopted for use after my return to university.  
+                </p>
+            </div>
+            <div data-date="Sep 2014 - May 2017">
+                <h3>University of Minnesota</h3>
+                <h4>Teaching Assistant</h4>
+                <p>
+                    One of my other pleasures as a graduate student is the opportunity to assist in teaching upper-class and graduate computer science courses. I've overseen the design of several large course-projects that were executed by classes of over 100 students, and have led lab sections and technical lectures. I also provided one-on-one research project feedback in a graduate-level data visualization course. 
+                </p>
             </div>
 
             <div data-date="May 2014 - Aug 2014">
                 <h3>Amazon (Seattle, WA)</h3>
                 <h4>Software Engineering Intern</h4>
-                <ul>
-                    <li>
-                        Research new, high-performance loading algorithms for digital content
-                    </li>
-                    <li>
-                        Gained experience using industry-level version control and testing for graphical iOS end-user software
-                    </li>
-                    
-                </ul>
+                <p> While considering options for after graduating with my bachelors degree, I was offered a full-time position with Amazon, and ultimately accepted a summer internship to instead pursue graduate school. 
+                During my internship, I was tasked with researching specific techniques to accelerate rapid browsing of Kindle comicbooks on iOS. 
+                After empirically proving that the recommended techniques were insufficient for the desired performance, I evaluated and presented alternative approaches.  
             </div>
+
+<!--             <div data-date="May 2012 - Aug 2012">
+                <h3>AppFirst (Bloomington, MN)</h3>
+                <h4>Software Engineering Intern</h4>
+                <p> While considering options for after graduating with my bachelors degree, I was offered a full-time position with Amazon, and ultimately accepted a summer internship to instead pursue graduate school. 
+                During my internship, I was tasked with researching specific techniques to accelerate rapid browsing of Kindle comicbooks on iOS. 
+                After empirically proving that the recommended techniques were insufficient for the desired performance, I evaluated and presented alternative approaches.  
+            </div> -->
         </div>
     </div>
     <!-- End #experience -->
@@ -179,120 +397,49 @@
     </div>
     <!-- End #education -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                     <div class="project-image">
-                        <img src="images/sculpting-vis.png" width="300px" />
 
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Artifact Based Rendering</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <!-- <a href="#">View Project</a> -->
-                    </div>
-                     <div class="panel">
-                        <hr>
-
-                        <div class ="video-frame">
-                            <iframe src="https://www.youtube.com/embed/5s95HwloWbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-                        </div>
-
-                        <h4>Testing </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-                         <h4>Testing </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <button class="accordion">Project Details</button>
-
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/BentoBox.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Bento Box</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <!-- <a href="#">View Project</a> -->
-                        
-                    </div>
-
-                    <div class="panel">
-                        <hr>
-
-                        <div class ="video-frame">
-                            <iframe src="https://www.youtube.com/embed/gn8bo8TgCHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-                        </div>
-
-                        <h4>Testing </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-                         <h4>Testing </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <button class="accordion">Project Details</button>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
             <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
+            <li>C#</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>GLSL</li>
+            <li>HLSL/Cg</li>
+            <li>Processing</li>
+            <li>Unity</li>
+            <li>OpenGL</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Visual Studio</li>
+            <li>Xcode</li>
+            <li>Make</li>
+            <li>CMake</li>
+            <li>VTK</li>
+            <li>Paraview</li>
+            <li>Photoshop</li>
+            <li>After Effects</li>
+            <li>Premiere Pro</li>
+            <li>DaVinci Resolve</li>
+            <li>Blender</li>
+            <li>Microsoft Office</li>
+            <li>Windows</li>
+            <li>Mac OSX</li>
+            <li>Linux</li>
+
         </ul>
     </div>
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2>Get in Touch With Seth </h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/sethalanjohnson+sitecontact@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
+                <textarea name="message" placeholder="Your message to Seth" required></textarea>
                 <button type="submit">Send</button>
             </form>
         </div>
@@ -315,25 +462,13 @@
                 </div>
                 <div class="col-sm-5 social">
                     <ul>
-                        <li>
+                        <!-- <li>
                             <a href="https://github.com/sethjohnson" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-<!--                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
- -->                        
+                        </li> -->
+
                         <li>
                             <a href="https://linkedin.com/in/sethalanjohnson" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
-<!--                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
- --><!--                         <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li> -->
                     </ul>
                 </div>
             </div>
